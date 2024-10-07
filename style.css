@@ -1,0 +1,106 @@
+
+    body, p, div, span{
+        margin: 0;
+        padding: 0;
+    }
+
+    p{
+        color: hsl(0, 0%, 30%);
+    }
+   
+    body {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        background-color: hsl(56, 100%, 85%);
+        box-sizing: border-box;
+    }
+
+  
+   h1{
+    font-style: normal;
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    
+   }
+
+    .container{
+        margin: 150px auto;
+    }
+    .card-container{
+        display: flex;
+        width: 500px;
+        margin: auto;
+        border-radius: 20px;
+        background-color: hsl(0, 0%, 100%);
+        
+    }
+    .card-info{
+        padding: 32px;
+    }
+    .card-info #produt-name{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+   
+     img{
+        max-width: 250px;
+        height: auto;
+        border-radius: 20px 0 0 20px;
+    }
+
+    .price{
+    margin-top: 15px;
+    display: flex;
+    gap: 12px;
+    }
+    .price h1{
+        margin: 0;
+        color: hsl(158, 36%, 37%);
+    }
+    .price p{
+        margin: 0;
+        text-align: center;
+        
+    }
+    .attribution { 
+        margin-top: 12px;
+        font-size: 11px; 
+        text-align: center; 
+    }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+
+    .buttom{
+        border-radius: 8px;
+        align-items: center;
+        background-color: hsl(158, 36%, 37%);
+        margin-top: 12px;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .buttom a span{
+        background: url(./images/icon-cart.svg) no-repeat;
+        height: 16px;
+        width: 26px;
+    }
+
+    .buttom a{
+        border-radius: 8px;
+        align-items: center;
+        display: flex;
+        gap: 10px;
+        padding: 10px 34px;
+        text-decoration: none;
+        color: white;
+        transition: background 0.3s;
+    }
+
+    .buttom :hover{
+       background-color: hsl(113, 43%, 16%);
+       
+    }
